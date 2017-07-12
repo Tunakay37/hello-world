@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Tribute to Nelson Mandela</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        $("document").ready(function(){
+            $("h3").addClass("text-primary");
+            $("#white").addClass("text-danger");
+        })
+        </script>
+
+    <style>
+        h1 {
+        font-family: Comfortaa, cursive;
+        padding: 20px 0px 10px 0px;
+        }
+
+        p {
+        font-family:  Helvetica, Arial, sans-serif;
+        }
+
+        main {
+        margin: 20px 40px 0px 40px;
+        }
+
+        footer {
+        font-size: 10px;
+        padding: 10px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid text-center">
+        <header>
+            <h1 class="text-primary">A Tribute to Nelson Mandela</h1>
+        <p class="caption">The man who delivered South Africans</p>
+        </header>
+    </div>
+
+    <figure>
+        <img class="img-responsive center-block" src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Nelson_Mandela%2C_2000_%285%29.jpg" alt="Image of Nelson Mandela">
+        <figcaption class="text-center"> <!--To add a caption to the image-->
+            <em>The great Nelson Mandela</em>
+        </figcaption>
+    </figure>
+    
+    <main class="well">
+        <h3>Mandela's childhood and education</h3>
+        <p>Mandela was born on 18 July 1918 in the village of Mvezo in Umtata, then part of South Africa's Cape Province. His forename was Rolihlahla a Xhosa term colloquially meaning "troublemaker", in later years he became known by his clan name, Madiba. The first to receive a formal education in his family, he attended a local Methodist school where he was baptized and given the name Nelson. He advanced to the University of Fort Hare and the following year, he was sent home for boycotting school policies.</p>
+        <h3>Mandela in Johannesburg</h3>
+        <p> On getting home, a marriage had been arranged for him and Mandela fled to Johannesburg and worked as a night-watchman. He was fired when it was discovered he was a runaway and then went on to work as a law clerk while pursuing his BA degree at night. He studied law at the University of Witwatersrand, where he became involved in the movement against racial discrimination and forged key relationships with black and white activists.</p>
+        <h3>Mandela and the ANC</h3>
+        <p> In 1944, Mandela joined the African National Congress (ANC) and worked with fellow party members to establish its youth league, the ANCYL. That same year, he met and married his first wife, Evelyn Ntoko Mase, with whom he had four children before their divorce in 1957. In 1962, Mandela was arrested for citing a worker's strike and leaving the country.</p>
+        <h3>Mandela in prison</h3>
+        <p> Mandela spent almost 3 decades of his life in prison. First, 18 years in Robben Island Prison where his cell had no bed and no plumbing. He was also made to work the limestone quarry. While in confinement, Mandela was able to earn his Bachelor of Law degree from the University of London. He also smuggled several political statements. Mandela was offered his freedom in exchange for political compromises including the renouncement of violence which he rejected. In 1982, he was transferred to Pollsmoor Prisonon on the mainland. In 1988, he was placed under house arrest on the grounds of a minimum-security-correctional facility.</p>
+        <h3>Mandela becomes President and abolishes Aparthield</h3>
+        <p> The following year, F.W de Clerk became president and in 1990 ordered the release of Nelson mandela. After his release, Mandela made negotiations with the ruling party and other political organizations to bring an end to Aparthield. On August 26, 1994, the first multi-racial election was conducted and on May 10 Mandela was sworn in as the first black president of South Africa. He accomplished several other notable feats after this. He later won the Nobel Prize for Peace alongside de Clerk.</p>
+        <br />
+        <p>To read his full history, click <a href="https://en.wikipedia.org/wiki/Nelson_Mandela" title="More info on Nelson Mandela" alt="Read more about Nelson Mandela on Wikipedia" target="_blank">here</a>(opens in new tab)</p>
+    </main>
+
+    <footer class="text-center bg-primary">
+        <p>Made by Samuel Akintunde</p>
+        <p id="year">- &copy;2017 -</p>
+        <p>Go to <a id="white" href="http://freecodecamp.com" target="_blank">Free Code Camp</a> to learn to code.</a></p>
+    </footer>
+
+    
+
+</body>
+</html>
